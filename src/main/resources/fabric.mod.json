@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"eu.org.sortmc.splugin.SPlugin"
+			"org.eu.sortmc.splugin.SPlugin"
 		]
 	},
 	"mixins": [
