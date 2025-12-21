@@ -17,7 +17,7 @@ public class suicideCommand {
         final PlayerEntity self = source.getPlayer();
         String playerName = self.getDisplayName().getString();
         if (self != null) {
-            self.kill();
+            self.kill(source.getWorld());
             source.sendFeedback(() -> Text.literal("Killed player " + playerName), true);
         } else {
             source.sendError(Text.literal("Player " + playerName + " not found."));
